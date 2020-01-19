@@ -46,7 +46,7 @@ body{
     position: relative;
     flex-direction: row;
 }
-#rpgImage{
+.projectImage{
     display: flex;
     flex-direction: row;
     width:100%;
