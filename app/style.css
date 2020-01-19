@@ -1,8 +1,14 @@
+body{
+    background-color: lightgray;
+}
 #headerbar{
     width:100%;
     height:100px;
-    background-color:black;
-    position: relative;
+    background: rgba(1, 1, 1, 0.5);    
+    top:0;
+    left:0;
+    position: fixed;
+    z-index: 1;
 }
 #headerfont{
     font-size:50px;
@@ -11,31 +17,38 @@
 }
 #navborder{
     display:flex;
-    background-color: gray;
+    background: rgba(1, 1, 1, 0.5);
     height:auto;
     width:100%;
-    position: relative;
-}
-#navbar{
-    list-style-type: none;
-    text-align: center;
-    display: inline;
-}
-.navbaritems{
-    padding:14px 16px;
-    float:left;
+    position: fixed;
+    z-index: 1;
+    top:100px;
+    left: 0;
 }
 .navlinks{
     color:white;
     font-size:30px;
+    padding:14px 16px;
 }
 #slideDiv{
-    background-color:white;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:155px;
 }
 #slideImages{
-    position: relative;
-    display:flex;
     width:auto;
+    height:auto;
+}
+#links{
+    top:300px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+#rpgImage{
+    display: flex;
+    flex-direction: row;
+    width:100%;
     height:100%;
-    top:200px;
 }
