@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: cornflowerblue;
 }
 html{
     scroll-behavior: smooth;
@@ -55,6 +55,7 @@ html{
     justify-content: center;
     position: relative;
     top:90px;
+    background-color:cornflowerblue;
 }
 #slideImages{
     width:auto;
@@ -65,17 +66,29 @@ html{
     position: absolute;
     top:805px;
     left:0;
-    background-color: cornflowerblue;
-    height:800px;
+    background-color: white;
+    height:710px;
     font-size: 20px;
-    color:burlywood;
+    color: midnightblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top:20px;
+}
+#educationAndActivities{
+    width:100%;
+    position: absolute;
+    top:1505px;
+    left:0;
+    background-color: deepskyblue;
+    padding-top:20px;
+    height:800px;
+    color: firebrick;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #projects{
     width: 100%;
     position: absolute;
-    top:1610px;
+    top:2310px;
     left:0;
     display: block;
     background-color: #2196F3;
@@ -97,5 +110,5 @@ html{
     height: 100%;
     font-size: 30px;
     color: burlywood;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
