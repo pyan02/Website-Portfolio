@@ -14,6 +14,7 @@ html{
     position: relative;
     bottom: 12px;
     float:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @keyframes title{
     0%{
@@ -41,11 +42,13 @@ html{
     text-align: center;
 }
 .navlinks{
+    display: inline;
     color:white;
     font-size:20px;
     padding:20px;
     position: relative;
     top:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #slideDiv{
     display:flex;
@@ -57,15 +60,26 @@ html{
     width:auto;
     height:auto;
 }
-#links{
+#about{
+    width:100%;
     position: absolute;
-    top:800px;
+    top:805px;
     left:0;
-    right:0;
+    background-color: cornflowerblue;
+    height:800px;
+    font-size: 20px;
+    color:burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:20px;
+}
+#projects{
+    width: 100%;
+    position: absolute;
+    top:1610px;
+    left:0;
     display: block;
     background-color: #2196F3;
-    padding: 10px;
-    grid-gap: 50px 100px;
+    padding-top: 10px;
 }
 .projectImage{
     width:100%;
