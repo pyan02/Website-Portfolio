@@ -1,19 +1,42 @@
-body{
-    background-color: cornflowerblue;
+*{
+    margin: 0;
+    padding: 0;
 }
-html{
+html, body{
+    background-color: white;
     scroll-behavior: smooth;
+    height:100%;
+}
+#container{
+    min-height: 100%;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    padding-left: 0;
+    color: midnightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: midnightblue;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #headerfont{
     font-size:30px;
     color:white;
-    text-align:center;
     animation-name:title;
     animation-duration:6s;
-    padding-left:15px;
+    float: left;
     position: relative;
-    bottom: 12px;
-    float:left;
+    top:30px;
+    padding-left: 20px;
+    padding-bottom: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @keyframes title{
@@ -30,32 +53,38 @@ html{
     }
 }
 #navborder{
+    display: flex;
     background: rgba(1, 1, 1, 0.5);
-    height:50px;
+    height:auto;
     width:100%;
     position: fixed;
     z-index: 1;
     top:0;
     left: 0;
 }
-.container{
-    text-align: center;
+#navList{
+    list-style: none;
+}
+.navItems{
+    position: relative;
+    bottom:20px;
+    display: inline-block;
 }
 .navlinks{
-    display: inline;
-    color:white;
     font-size:20px;
-    padding:20px;
+    color:white;
     position: relative;
-    top:12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top:15px;
+    padding:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #slideDiv{
     display:flex;
     justify-content: center;
-    position: relative;
+    align-items: center;
+    background-color:white;
     top:90px;
-    background-color:cornflowerblue;
+    position: relative;
 }
 #slideImages{
     width:auto;
@@ -63,52 +92,103 @@ html{
 }
 #about{
     width:100%;
-    position: absolute;
-    top:805px;
     left:0;
     background-color: white;
-    height:710px;
+    height:810px;
     font-size: 20px;
     color: midnightblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:37px;
+    top:300px;
+    position: relative;
+}
+.listItemsFont{
+    padding-left:20px;
+    padding-top:5px;
+}
+.listHeaderFont{
     padding-top:20px;
 }
-#educationAndActivities{
+#education-and-activities{
     width:100%;
-    position: absolute;
-    top:1505px;
     left:0;
-    background-color: deepskyblue;
-    padding-top:20px;
-    height:800px;
-    color: firebrick;
+    background-color: midnightblue;
+    padding-top:37px;
+    height:1200px;
+    color: white;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:200px;
+    position: relative;
 }
 #projects{
     width: 100%;
-    position: absolute;
-    top:2310px;
     left:0;
-    display: block;
-    background-color: #2196F3;
-    padding-top: 10px;
+    background-color: white;
+    padding-top: 30px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 .projectImage{
     width:100%;
-    height:100%;
+    height:auto;
 }
-.header{
-    width: 100%;
-    height: 100%;
-    font-size: 50px;
-    color: aqua;
+#contacts{
+    font-size: 20px;
+    background-color: midnightblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.para{
     width: 100%;
-    height: 100%;
+    height:300px;
+    clear: both;
+    left:0;
+    color: white; 
+    position: relative;
+    float: left;
+}
+.fa {
+    padding: 20px;
     font-size: 30px;
-    color: burlywood;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    float: right;
+    display: flex;
+    bottom: 100px;
+    height:auto;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    float: right;
+    display: flex;
+    bottom: 100px;
+    height:auto;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: flex;
+    bottom: 100px;
+    height:auto;
+  }
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+    display: flex;
+    bottom: 100px;
+    height:auto;
+  }
+#footer{
+    font-size:20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    text-align: center;
 }

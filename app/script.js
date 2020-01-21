@@ -1,6 +1,6 @@
 var i = 0;
 var images = [];
-var time = 1500;
+var time = 7000;
 
 //list
 images[0] = '3D6_YANP.jpg';
