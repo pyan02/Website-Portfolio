@@ -3,7 +3,7 @@
     padding: 0;
 }
 html, body{
-    background-color: white;
+    background-color: #fbfef9;
     scroll-behavior: smooth;
     height:100%;
 }
@@ -13,23 +13,23 @@ html, body{
 .header{
     width: 100%;
     height: 100%;
-    font-size: 50px;
+    font-size: 45px;
     padding-left: 0;
-    color: midnightblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #002e4c;
+    font-family: 'Libre Baskerville', serif;
 }
 .para{
     width: 100%;
     height: 100%;
-    font-size: 30px;
-    color: midnightblue;
+    font-size: 25px;
+    color: #002e4c;
     padding-top:20px;
     padding-bottom: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 #headerfont{
-    font-size:30px;
-    color:white;
+    font-size:25px;
+    color:#fbfef9;
     animation-name:title;
     animation-duration:6s;
     float: left;
@@ -37,7 +37,7 @@ html, body{
     top:30px;
     padding-left: 20px;
     padding-bottom: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 @keyframes title{
     0%{
@@ -71,18 +71,18 @@ html, body{
     display: inline-block;
 }
 .navlinks{
-    font-size:20px;
-    color:white;
+    font-size:15px;
+    color:#fbfef9;
     position: relative;
     top:15px;
     padding:20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 #slideDiv{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:white;
+    background-color:#fbfef9;
     top:90px;
     position: relative;
 }
@@ -93,11 +93,11 @@ html, body{
 #about{
     width:100%;
     left:0;
-    background-color: white;
+    background-color: #fbfef9;
     height:810px;
-    font-size: 20px;
-    color: midnightblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #002e4c;
+    font-family: 'Libre Baskerville', serif;
     padding-top:37px;
     top:300px;
     position: relative;
@@ -112,19 +112,19 @@ html, body{
 #education-and-activities{
     width:100%;
     left:0;
-    background-color: midnightblue;
+    background-color: #002e4c;
     padding-top:37px;
     height:1200px;
-    color: white;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fbfef9;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
     top:200px;
     position: relative;
 }
 #projects{
     width: 100%;
     left:0;
-    background-color: white;
+    background-color: #fbfef9;
     padding-top: 30px;
     height:auto;
     display: flex;
@@ -136,20 +136,20 @@ html, body{
     height:auto;
 }
 #contacts{
-    font-size: 20px;
-    background-color: midnightblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: #002e4c;
+    font-family: 'Libre Baskerville', serif;
     width: 100%;
     height:300px;
     clear: both;
     left:0;
-    color: white; 
+    color: #fbfef9; 
     position: relative;
     float: left;
 }
 .fa {
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -187,8 +187,8 @@ html, body{
     height:auto;
   }
 #footer{
-    font-size:20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:white;
+    font-size:15px;
+    font-family: 'Libre Baskerville', serif;
+    color:#fbfef9;
     text-align: center;
 }
